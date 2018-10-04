@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Array_sort">
+      <UniqueIdentifier>{4db845af-63a5-4743-b486-87bdd54f5687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ORC">
+      <UniqueIdentifier>{fff236b5-d008-46b5-8912-f891d39549e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Matrix">
+      <UniqueIdentifier>{52da7436-b824-4f5e-a146-b97927e2028c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Integrals">
+      <UniqueIdentifier>{02ebf941-8518-4f3b-aa9f-ced163db3db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Equations">
+      <UniqueIdentifier>{50a82c68-5568-4c4d-a77a-c5112d4862e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Random_Stuff">
+      <UniqueIdentifier>{32d8ac46-dcb5-44ae-94d0-33ddf56f679f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы ресурсов\Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="FedUpWithThis.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="FindString.cpp">
+      <Filter>Исходные файлы\Array_sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Choice.cpp">
+      <Filter>Исходные файлы\Array_sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Bubble.cpp">
+      <Filter>Исходные файлы\Array_sort</Filter>
+    </ClCompile>
+    <ClCompile Include="ORC.cpp">
+      <Filter>Исходные файлы\ORC</Filter>
+    </ClCompile>
+    <ClCompile Include="Transpoining.cpp">
+      <Filter>Исходные файлы\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Diagram.cpp">
+      <Filter>Исходные файлы\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangles.cpp">
+      <Filter>Исходные файлы\Integrals</Filter>
+    </ClCompile>
+    <ClCompile Include="Simpson.cpp">
+      <Filter>Исходные файлы\Integrals</Filter>
+    </ClCompile>
+    <ClCompile Include="FindD3.cpp">
+      <Filter>Исходные файлы\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ProgrammingForPhysicists\ProgrammingForPhysicists\Equations1.cpp">
+      <Filter>Исходные файлы\Equations</Filter>
+    </ClCompile>
+    <ClCompile Include="Average.cpp">
+      <Filter>Исходные файлы\ORC</Filter>
+    </ClCompile>
+    <ClCompile Include="FastSort.cpp">
+      <Filter>Исходные файлы\Array_sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Factorization.cpp">
+      <Filter>Исходные файлы\Random_Stuff</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
