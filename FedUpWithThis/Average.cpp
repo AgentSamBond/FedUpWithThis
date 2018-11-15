@@ -1,7 +1,7 @@
 #include "pch.h"
 #define XY_LENGTH 4
 double Average() {
-	double val[] = {24,24,25,25,25};
+	double val[] = {6.5,6.5,6.6};
 	double x_ = 0, Sx = 0;
 	int i;
 	for (i = 0; fabs(val[i]) > 1.0E-10; i++) {
@@ -18,7 +18,7 @@ double Average() {
 }
 
 void Noth() {
-	double x[XY_LENGTH] = { 0.82, 0.82, 0.23,23 }, y[XY_LENGTH] = { 0.5,5,9.5,13.5 }, sy[XY_LENGTH] = { 0.15, 0.15, 0.15, 0.15};
+	double x[XY_LENGTH] = { 0,1,2,3 }, y[XY_LENGTH] = { 1.027, 1.092, 1.135, 1.18 }, sy[XY_LENGTH] = { 0.08, 0.09, 0.09, 0.09 };
 	double v1 = 0, v2 = 0, v3 = 0, v4 = 0, v5 = 0;
 	double d = 0, da = 0, db = 0;
 	double Sa = 0, Sb = 0;

@@ -1,8 +1,8 @@
 #include "pch.h"
-#define XY_LENGTH 10
-
+#define XY_LENGTH 3
+#ifdef XY_LENGTH 3
 void ORC_a() {
-	double x[XY_LENGTH] = { 0.0043, 0.00671, 0.01325, 0.0128, 0.016 }, y[XY_LENGTH] = { 0.027, 0.036, 0.042, 0.044, 0.04 }, sy[XY_LENGTH] = { 0.002, 0.0017, 0.0014, 0.0016,  0.0013 };
+	double x[XY_LENGTH] = { 0.5,1,1.5 }, y[XY_LENGTH] = { 14.3,31.2,47.6 }, sy[XY_LENGTH] = { 0.2,0.8,0.9 };
 	double a = 0, S = 0, b = 0;
 
 	for (int i = 0; i < XY_LENGTH; i++) {
@@ -14,9 +14,9 @@ void ORC_a() {
 	cout << "a = " << a;
 	cout << "+-" << S;
 }
-
+#else
 void ORC_ab() {
-	double x[XY_LENGTH] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }, y[XY_LENGTH] = { 0.5,5,9.5,13.5,17,20,23.5,27.5,31,35 }, sy[XY_LENGTH] = { 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15 };
+	double x[XY_LENGTH] = { 0.2,0.4,0.6,0.8 }, y[XY_LENGTH] = { 0.55,3.65,11.22,24.1 }, sy[XY_LENGTH] = { 0.03,0.05,0.07,0.1 };
 	double v1 = 0, v2 = 0, v3 = 0, v4 = 0, v5 = 0;
 	double d = 0, da = 0, db = 0;
 	double Sa = 0, Sb = 0;
@@ -59,3 +59,4 @@ void ORC_ab() {
 	r = v1 / sqrt(v2*v3);
 	cout << "r = " << r;
 }
+#endif

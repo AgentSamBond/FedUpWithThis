@@ -159,10 +159,12 @@
     <ClCompile Include="Bubble.cpp" />
     <ClCompile Include="Choice.cpp" />
     <ClCompile Include="Diagram.cpp" />
+    <ClCompile Include="Equations_2.cpp" />
     <ClCompile Include="FastSort.cpp" />
     <ClCompile Include="FedUpWithThis.cpp" />
     <ClCompile Include="FindD3.cpp" />
     <ClCompile Include="FindString.cpp" />
+    <ClCompile Include="Hometask_6.cpp" />
     <ClCompile Include="ORC.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -174,6 +176,10 @@
     <ClCompile Include="Rectangles.cpp" />
     <ClCompile Include="Transpoining.cpp" />
     <ClCompile Include="Simpson.cpp" />
+    <ClCompile Include="WWF.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="file.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

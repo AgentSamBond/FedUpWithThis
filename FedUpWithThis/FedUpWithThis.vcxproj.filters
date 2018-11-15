@@ -31,6 +31,9 @@
     <Filter Include="Исходные файлы\Random_Stuff">
       <UniqueIdentifier>{32d8ac46-dcb5-44ae-94d0-33ddf56f679f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\WorkingWithFiles">
+      <UniqueIdentifier>{1c10e710-4e6c-4e07-903f-c8eaf9c79689}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -83,5 +86,17 @@
     <ClCompile Include="Factorization.cpp">
       <Filter>Исходные файлы\Random_Stuff</Filter>
     </ClCompile>
+    <ClCompile Include="WWF.cpp">
+      <Filter>Исходные файлы\WorkingWithFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Equations_2.cpp">
+      <Filter>Исходные файлы\Equations</Filter>
+    </ClCompile>
+    <ClCompile Include="Hometask_6.cpp">
+      <Filter>Исходные файлы\Random_Stuff</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="file.txt" />
   </ItemGroup>
 </Project>
