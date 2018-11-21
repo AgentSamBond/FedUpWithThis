@@ -165,6 +165,9 @@
     <ClCompile Include="FindD3.cpp" />
     <ClCompile Include="FindString.cpp" />
     <ClCompile Include="Hometask_6.cpp" />
+    <ClCompile Include="Hometask_6_1.cpp" />
+    <ClCompile Include="Hometask_6_main.cpp" />
+    <ClCompile Include="Hometask_6_triangle.cpp" />
     <ClCompile Include="ORC.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

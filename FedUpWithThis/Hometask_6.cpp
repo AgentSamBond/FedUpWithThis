@@ -6,7 +6,7 @@ double* Create_matrix(int size1) {
 
 	double *matrix1 = new double[size1];
 		for (int i = 0; i < size1; i++) {
-			matrix1[i] = (1.5 + 1) * ((double)rand() / (double)RAND_MAX) - 1;
+			matrix1[i] = ((double)rand() / (double)RAND_MAX);
 	}
 
 		return matrix1;

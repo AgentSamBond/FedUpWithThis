@@ -1,7 +1,7 @@
 #include "pch.h"
 #define XY_LENGTH 4
 double Average() {
-	double val[] = {6.5,6.5,6.6};
+	double val[] = {3.66,3.75,3.72,3.61,3.69};
 	double x_ = 0, Sx = 0;
 	int i;
 	for (i = 0; fabs(val[i]) > 1.0E-10; i++) {
